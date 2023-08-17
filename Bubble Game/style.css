@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(236, 172, 182);
+    height: 100%;
+    width: 100%;
+}
+.panel{
+    height: 90%;
+    width: 90%;
+    background-color: rgb(247, 229, 232);
+    border-radius: 5px;
+    overflow: hidden;
+}
+.topPanel{
+    background-color: pink;
+    height: 60px;
+    width: 100%;
+    color: aliceblue;
+    align-items: center;
+    padding: 10px;
+    /* gap: 10px; */
+    display: flex;
+    justify-content: space-between;
+}
+.elem{
+    /* background-color: rgb(220, 239, 255); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+    gap: 20px;
+    /* width: 20%; */
+}
+h3{
+    color: black;
+    /* display: flex; */
+}
+.box{
+    display: flex;
+    color: black;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    color: rgb(101, 88, 90);
+    font-size: larger;
+    font-weight: 600;
+    border: 1px  rgb(188, 94, 110) solid;
+    /* width: 35px; */
+}
+.bottomPortion{
+    background-color: rgb(254, 249, 249);
+    /* height: calc(100%-60px); */
+    width: 100%;
+    height: 90%;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+}
+.bubble{
+    background-color: rgb(255, 80, 109);
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.bubble:hover{
+    cursor: pointer;
+    background-color: rgb(250, 136, 155);
+}
